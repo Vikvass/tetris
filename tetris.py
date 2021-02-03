@@ -23,10 +23,8 @@ def instruksia():
 
 
 def vtoroepole():
-    global description,btnnachall
+    global btnnachall
     clear()
-    description = Label(window, text="Инструкция", font=("Calibri bold", 30,), background="#0210A1", fg="white")
-    description.place(x='100', y="75")
     btnnachall = Button(window, bg="#42AAFF", text="Вернуться в начало", command=begin, activebackground='#18FFA2')
     btnnachall.place(x=15, y=485, width=100, height=100)
 
